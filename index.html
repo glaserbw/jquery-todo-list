@@ -3,9 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
   <h1>Hello Front-End</h1>
+	  <div id="header">
+		  <ul class="list">
+		  </ul>
+	  </div>
+
+  <input type="text" id="writtenItem" placeholder="New Item" value="">
+  <input type="button" id="button-submit" value="Add New Item" onclick="new_element()"/>
+  <input type="button" id="button-remove" value="Clear All" onclick="removeAll()"/>  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
 </body>
 </html>
